@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Your Name",
+  title: "Anthony Villablanca | AntStudio",
   description:
-    "Personal portfolio showcasing projects, skills, and experience.",
+    "AntStudio is the portfolio of Anthony Villablanca, a web developer and UGC video editor. Explore his projects, skills, and contact information.",
 };
 
 export default function RootLayout({
