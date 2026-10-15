@@ -16,8 +16,8 @@ export default function Hero() {
       </div>
 
       <div className="mx-auto w-full max-w-5xl px-6">
-        <div className="grid gap-10 md:grid-cols-2 md:items-center md:gap-12">
-          <div>
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:items-center md:gap-12">
+          <div className="order-2 md:order-1">
             {profile.available && (
               <span
                 className="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300 motion-safe:animate-[heroFadeUp_0.65s_cubic-bezier(0.22,1,0.36,1)_both]"
@@ -73,7 +73,7 @@ export default function Hero() {
           </div>
 
           <div
-            className="flex justify-center motion-safe:animate-[heroFadeUp_0.75s_cubic-bezier(0.22,1,0.36,1)_both] motion-reduce:animate-none md:justify-end"
+           className="order-1 flex justify-center motion-safe:animate-[heroFadeUp_0.75s_cubic-bezier(0.22,1,0.36,1)_both] motion-reduce:animate-none md:order-2 md:justify-end"
             style={{ animationDelay: "120ms" }}
           >
             <div className="group relative flex justify-center md:justify-end">

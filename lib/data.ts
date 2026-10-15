@@ -1,8 +1,8 @@
 export const profile = {
   name: "Anthony Villablanca",
-  role: "Full-Stack Developer",
+  role: "Web Developer & UGC Video Editor",
   tagline:
-    "I build clean, performant web experiences with modern tools and a focus on detail.",
+    "I build engaging web experiences and edit compelling short-form videos for creators and brands.",
   email: "villablancaanthony2@gmail.com",
   socials: {
     github: "https://github.com/antunivillablnc",
